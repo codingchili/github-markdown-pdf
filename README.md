@@ -34,4 +34,5 @@ body {
 `;
 document.getElementsByTagName('head')[0].appendChild(style);
 print();
+location.reload();
 ```
