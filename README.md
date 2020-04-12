@@ -12,7 +12,7 @@ let markdown = document.getElementById('readme');
 
 // remove the box-header if in file reader
 if (markdown.firstElementChild.tagName === 'DIV') {
-    markdown.removeChild()
+    markdown.removeChild(markdown.firstElementChild)
 }
 document.body.innerHTML = markdown.innerHTML;
 
